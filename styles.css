@@ -315,6 +315,7 @@
 }
 html {
   scroll-padding-top: 96px;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -458,9 +459,8 @@ address {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: color-mix(in srgb, var(--paper) 96%, transparent);
+  background: var(--paper);
   border-bottom: 1px solid color-mix(in srgb, var(--ink) 10%, transparent);
-  backdrop-filter: blur(16px);
 }
 .brand-lockup {
   display: flex;
